@@ -2,10 +2,30 @@
 
 <!DOCTYPE html>
 <html lang="en-CA">
-
+ <head>
+    <title> Week 7: Typography</title>
+    <meta charset="utf-8">
+    <style>
+      #column1 {
+      width: 600px;
+      float: left;
+      display: inline;
+        background-color: red;
+      }
+      
+      #column2 {
+      float: right;
+      width: 600px;
+        clear: none;
+        display: inline;
+      }
+   </style>
+   </head>
   <body>
-    <div style="width:1200px;">
+   
 
+  <div style="width: 1200">
+ <div id="column2">
       <h1>
         Spinach, Tofu and Sesame Stir-Fry
       </h1>
@@ -16,9 +36,10 @@
       <h3>
         Yield: 3 Servings
       </h3>
-
       <img src="recipe-photo-Enhanced-SR (1).jpg" alt="photo of salad">
-
+    </div>
+    
+    <div id="column1">
       <h2>
         Ingredients
       </h2>
@@ -58,6 +79,8 @@
       <p>
         Advance preparation: This is a last-minute preparation, but you can have your ingredients prepared well in advance.
       </p>
+    </div>
+  
     </div>
   </body>
 </html>
